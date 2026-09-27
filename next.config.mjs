@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/glassmorphic-rich-text-editor',
   eslint: {
     ignoreDuringBuilds: true,
   },
